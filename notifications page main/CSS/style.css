@@ -1,0 +1,79 @@
+@import url(notification.css);
+@import url(hero.css);
+@import url(names.css);
+
+@font-face {
+    font-family: PlusJakartaSans;
+    src: url(/assets/fonts/PlusJakartaSans-VariableFont_wght.ttf);
+}
+@media screen and (max-width: 630px){
+    body{
+        font-size: 10px;
+        
+    }
+    .container {
+        width:  500px;
+        margin-left: 250px;
+        margin-top: 50px;
+    }
+    /* .text_align {
+        margin-left: 13px;
+     } */
+}
+
+:root {
+    --lightGrayishBlue : hsl(210, 60%, 98%);
+    --lightGrayishBlue1: hsl(211, 68%, 94%);
+    --lightGrayishBlue2: hsl(205, 33%, 90%);
+    --grayishBlue: hsl(219, 14%, 63%);
+    --darkGrayishBlue: hsl(219, 12%, 42%);
+    --darkBlue : hsl(224, 21%, 14%);
+    --white :hsl(0, 0%, 100%);
+    --blue : hsl(224, 68%, 23%);
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+  
+}
+body{
+    font-family: PlusJakartaSans;
+    background-color: var(--lightGrayishBlue1);
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* margin: 50px 0px 50px 0px; */
+    
+}
+.container {
+    
+    align-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+    background-color: var(--white);
+    /* max-width: 1440px; */
+    border-radius: 25px;
+    width: 750px;
+    
+}
+
+.grey {
+    color: var(--darkGrayishBlue);
+}
+.circle {
+    margin-left: 5px;
+    color: red;
+    margin-right: 5px;
+}
+
+.time {
+    
+    color: rgba(128, 128, 128, 0.704);
+    margin-left: 14px;
+}

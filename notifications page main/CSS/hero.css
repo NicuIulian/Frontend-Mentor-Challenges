@@ -1,0 +1,37 @@
+.pictures  img {
+    max-width: 375px;
+    height: 60px;
+    margin-left: 10px;
+    
+}
+
+.wrapper {
+    /* flex: 1; */
+    display: flex;
+    align-items: center;
+    background-color: var(--lightGrayishBlue);
+    border-radius: 10px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    margin-left: 10px;
+    height: 90px;
+}
+
+.wrapper-read {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+    height: 90px;
+}
+
+/* .wrapper-read h3 {
+    margin-left: 20px;
+    margin-right: 7px;
+}
+.wrapper-read h3:hover{
+    color: blue;
+    cursor: pointer;
+
+} */

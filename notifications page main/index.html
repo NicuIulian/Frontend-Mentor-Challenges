@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Mentor | Notifications page</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <link rel="stylesheet" href="/CSS/style.css">
+</head>
+<!--*! START OF THE  BODY -->
+<body>
+    <div class="container">
+    <div class="notifications">
+            <h3>Notifications</h3>
+           <div class="number" id="number"><span class="number_text" id="number_text">3</span></div>
+            <p id="read">Mark all as read</p>
+      </div>
+      <section class="pictures">
+        <!--*! mark -->
+        <div class="wrapper" id="wrapper">
+          <img src="assets/images/avatar-mark-webber.webp" alt="mark">
+          <div class="content">
+            <p>
+            <span class="mark"><strong>Mark Webber</strong></span> reacted to your recent post 
+            <span class="tournament"><strong><span class="tournament">My first tournament day!</span></strong><span class="circle" id="circle">⬤</span></span>
+            </p>
+            <p class="time">1 min ago</p>
+        </div>
+        </div>
+        <!--*! end mark -->
+        
+        <!--*! angela -->
+        <div class="wrapper"  id="wrapper1">
+        <img src="assets/images/avatar-angela-gray.webp" alt="angela"> 
+        <div class="content">
+            <p>
+            <span class="angela"><strong>Angela Gray</strong></span> followed you. <span class="circle" id="circle1">⬤</span>
+            </p>
+            <p class="time">5 min ago</p>
+        </div>
+        </div>
+        <!--*! end angela -->
+
+        <!--*! jacob -->
+        <div class="wrapper" id="wrapper2">
+        <img src="assets/images/avatar-jacob-thompson.webp" alt="jacob">
+        <div class="content">
+            <p> 
+            <span class="jacob"><strong>Jacob Thompson</strong></span>has joined your group <span class="chess"><strong>Chess Club</strong> <span class="circle" id="circle2">⬤</span></span>
+            </p>
+            <p class="time">1 day ago</p>
+        </div>
+        </div>
+        <!--*! end jacob -->
+        
+        <!-- *! rizky -->
+        <div class="wrapper-read">
+        <img src="assets/images/avatar-rizky-hasanuddin.webp" alt="rizky"> 
+        <div class="content">
+            <p>
+            <span class="rizky"><strong>Rizky Hasanuddin</strong></span> sent you a private message.
+            </p>
+            <p class="time">5 days ago</p>     
+        </div>
+        </div>
+        <div class="message">
+        <span class="rizky_message">Hello! thanks for setting up the Chess Club. I've been a memeber for a few weeks now and I'm already having lots of fun improving my game.</span>
+        </div> 
+        <!-- *! end rizky -->
+
+         <!-- *! kimberly -->
+        <div class="wrapper-read">
+        <img src="assets/images/avatar-kimberly-smith.webp" alt="kimberly"> 
+        <div class="content">
+            <p>
+            <span class="kimberly"><strong>Kimberly Smith</strong></span> commented on your picture.
+            </p>
+            <p class="time">1 week ago</p>
+        </div>
+        <div class="image-chess">
+        <img src="assets/images/image-chess.webp" alt="chess" class="chess">
+        </div>
+        </div>
+         <!-- *! end kimberly -->
+
+          <!-- *! nathan -->
+        <div class="wrapper-read">
+        <img src="assets/images/avatar-nathan-peterson.webp" alt="nathan">
+        <div class="content">
+            <p>
+              <span class="nathan"><strong>Nathan Peterson</strong></span>reacted to your recent <strong><span class="grey"> 5 end game strategies to increase your <span class="text_align">winrate.
+
+              </span></span></strong> 
+            </p>
+            <p class="time">2 weeks ago</p>
+        </div>
+        </div>
+        <!-- *! end nathan -->
+
+        <!-- *! anna -->
+        <div class="wrapper-read">
+        <img src="assets/images/avatar-anna-kim.webp" alt="anna">
+          <div class="content">
+            <p>
+              <span class="anna"><strong>Anna Kim</strong></span>left the group<strong><span class="chess"> Chess Club. </span></strong>
+            </p>
+            <p class="time">2 weeks ago</p>
+          </div>
+        
+        </div>  
+        
+      </section>
+      </div>
+      <!-- *! end anna -->
+      <script src="script.js"></script>
+</body>
+</html>

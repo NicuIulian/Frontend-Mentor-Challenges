@@ -1,0 +1,41 @@
+.notifications {
+    display: flex ;
+    margin-top: 30px !important;
+    margin-bottom: 30px !important;
+    margin-left: 15px !important;
+    margin-right: 30px;
+}
+.number {
+    /* *! top right  bottom left */
+    margin: 10px 0px 5px 10px;
+    width: 30px;
+    height: 27px;
+    border-radius: 4px;
+    background-color: var(--blue);
+    align-content: center;
+    align-items: center;
+}
+.number_text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.notifications h3{
+    text-align: end;
+    font-size: 30px; 
+}
+.notifications p {
+    display: flex;
+    text-align: end;
+    justify-content: center;
+    align-items: center;
+    margin-left: 330px;
+    font-size: 17px;  
+           
+}
+.notifications p:hover {
+    color: blue;
+    cursor: pointer;
+}

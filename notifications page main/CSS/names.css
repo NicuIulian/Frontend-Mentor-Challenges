@@ -1,0 +1,120 @@
+/* *mark------------------------ */
+.mark {
+    margin-left: 14px;
+    margin-right: 5px;
+}
+.mark:hover{
+    color: blue;
+    cursor: pointer;
+}
+.tournament {
+    color:var(--darkGrayishBlue);
+}
+.tournament:hover {
+    color: blue;
+    cursor: pointer;
+}
+/* *---------------------------- */
+
+/* *angela */
+.angela {
+    margin-left: 14px;
+    margin-right: 5px;
+}
+.angela:hover{
+    color: blue;
+    cursor: pointer;
+}
+/* *----------------------------- */
+
+/* *jacob */
+.jacob{
+    margin-left: 14px;
+    margin-right: 5px;
+}
+.jacob:hover {
+    color: blue;
+    cursor: pointer;
+}
+.chess{
+    color:var(--darkGrayishBlue);
+}
+.chess:hover{
+    color: blue;
+    cursor: pointer;
+}
+/* *------------------------------ */
+
+/* *rizky */
+
+.rizky {
+    margin-left: 14px;
+    margin-right: 5px;
+}
+.rizky:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+.message {
+    display: flex;
+    justify-content: end;
+    /** top right bottom left  */
+    margin: 3px 40px 0px 10rem;
+    border-radius: 5px;
+    border: 0.2px solid rgba(128, 128, 128, 0.658);
+
+}
+.message:hover {
+    background-color:var(--lightGrayishBlue1);
+    cursor: pointer;
+    
+}
+.rizky_message {
+    display: flex;
+    text-align: left;
+    margin: 20px 20px 20px 20px;
+}
+/* * -------------------------------------- */
+
+/* * kimberly*/
+.kimberly {
+    margin-left: 14px;
+    margin-right: 5px;
+}
+.kimberly:hover {
+    color: blue;
+    cursor: pointer;
+}
+.image-chess {
+    margin-left: 209px;
+}
+/* * -------------------------------------- */
+
+/* * nathan*/
+.nathan {
+    margin-left: 14px;
+    margin-right: 5px;
+}
+.nathan:hover{
+    color: blue;
+    cursor: pointer;
+}
+.text_align {
+   margin-left: 13px;
+}
+/* * -------------------------------------- */
+
+/* * anna*/
+.anna{
+    margin-left: 14px;
+    margin-right: 5px;
+}
+.anna:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+
+
+
